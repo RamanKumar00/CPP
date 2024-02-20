@@ -19,6 +19,10 @@ class Console
     int getmobilenumber(){
         return mobile_number;
     }
+    void setname(string newname)
+    {
+        name=newname;
+    }
    
 };
 int main()

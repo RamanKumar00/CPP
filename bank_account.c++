@@ -42,7 +42,7 @@ void account :: withdraw_check(void)
 }
 void account::namebalance(void)
 {
-    cout<< n <<" has balance "<<amount+amountdeposit-withdraw;
+    cout<< n <<" has balance "<<amount+amountdeposit-withdraw<<endl;
     
     
 }
