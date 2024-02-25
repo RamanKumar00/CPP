@@ -4,7 +4,7 @@ using namespace std;
 
 class Rectangle {
 private:
-    // Private data members
+   
     float length;
     float width;
 
