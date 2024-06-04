@@ -1,18 +1,22 @@
 #include<iostream>
 using namespace std;
+int binarytodecimal(int n )
+{
+    int ans=0;
+    int x=1;
+    while(n>0)
+    {
+        int y=n%10;
+        ans=ans+x*y;
+        x=x*2;
+        n=n/10;
+    }
+    return ans;
+}
 int main()
 {
-    int num,mul=1,rem,ans=0;
-    cout<<"enter the value of num: ";
-    cin>>num;
-
-    while(num>0)
-    {
-        rem=num%10;
-        num=num/10;
-        ans=rem*mul+ans;
-        mul=mul*2;
-    }
-    cout<<ans;
+    int n;
+    cin>>n;
+    cout<<binarytodecimal(n)<<endl;
     return 0;
 }

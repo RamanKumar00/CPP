@@ -2,20 +2,18 @@
 using namespace std;
 int main()
 {
-    int arr[5]={5,7,6,9,11};
+    int arr[5]={2,9,13,43,1};
+    int x;
+    cin>>x;
     int index=-1;
-    int num;
-    cout<<"enter the number which you have to find: ";
-    cin>>num;
-    for(int i=0;i<=5;i++)
+    for(int i=0;i<5;i++)
     {
-        if(arr[i]==num)
-        {   
+        if(arr[i]==x)
+        {
             index=i;
             break;
         }
     }
-    cout<<"your given number is on"<< index;
+    cout<<index;
     return 0;
-
 }
