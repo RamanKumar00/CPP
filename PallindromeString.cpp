@@ -9,7 +9,7 @@ int getLength(char name[])
     }
     return count;
 }
-bool checkpalindrome(char name[], int len)
+    bool checkpalindrome(char name[], int len)
 {
     int start = 0;
     int end = len - 1;
