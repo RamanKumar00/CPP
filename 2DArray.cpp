@@ -10,11 +10,30 @@ int main()
             cin >> arr[i][j];
         }
     }
+    //rows wise printing
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 3; j++)
         {
             cout << arr[i][j] << " ";
+        }
+        cout << endl;
+    }
+//column wise printing
+     for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            cout << arr[j][i] << " ";
+        }
+        cout << endl;
+    }
+    int arrr[3][3]={{1,11,111},{2,22,222},{3,33,333}};
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            cout << arrr[i][j] << " ";
         }
         cout << endl;
     }
