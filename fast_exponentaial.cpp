@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 long long modularExponentiation(long long base, long long exponent, long long modulus)
 {
     long long result = 1;
@@ -22,12 +23,12 @@ long long modularExponentiation(long long base, long long exponent, long long mo
 int main()
 {
     long long base, exponent, modulus;
-    std::cout << "Enter base: ";
-    std::cin >> base;
-    std::cout << "Enter exponent: ";
-    std::cin >> exponent;
-    std::cout << "Enter modulus: ";
-    std::cin >> modulus;
+    cout << "Enter base: ";
+    cin >> base;
+    cout << "Enter exponent: ";
+    cin >> exponent;
+    cout << "Enter modulus: ";
+    cin >> modulus;
 
     std::cout << "Result: " << modularExponentiation(base, exponent, modulus) << std::endl;
 
