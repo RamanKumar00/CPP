@@ -19,7 +19,7 @@ int Binarysearch(int arr[],int n,int key)
         {
            end=mid-1;
         }
-    }
+}
     return -1;
 }
 int main()
