@@ -6,7 +6,7 @@ int main()
     cout<<"enter size of an aaray: ";
     cin>>size;
     int arr[size];
-   
+    cin>>arr[size];
     cout<<"enter"<< size <<"element of array: ";
     for(int i=0;i<size;i++)
     {
